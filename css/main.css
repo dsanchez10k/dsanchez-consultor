@@ -1,0 +1,354 @@
+
+/* HEADER*/
+.inicio {
+	
+	position: fixed;
+}
+
+
+
+
+/***********************
+GENERAL
+***********************/
+
+body {
+	font-family: 'Days One', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}	
+section #gallery{
+	max-width: 940px;
+	margin: 0 auto;
+	padding-top: 120px;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+img {
+	max-width: 100%;
+}
+
+h3 {
+	margin: 0 0 1em 0;
+}
+
+/***********************
+HEADING
+***********************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding-top: 5px 0 0 0;
+	width: 100%;
+}
+
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Days One', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-family: 'Days One', sans-serif;
+	font-size: 1.2em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+
+/************************
+PAGINA:PORTAFOLIO
+************************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.85em;
+}
+
+/**********************
+PAGINA:ACERCA DE
+**********************/
+
+.foto_perfil {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 20%; 
+}
+
+
+/*PAGINA NETWORKING*/
+
+#wrappernet {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.network {
+	display: block;
+	max-width: 250px;
+	margin: 0 auto 30px;
+	border-radius: 20%; 
+}
+
+/*PAGINA SWITCH*/
+
+#wrappersw {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.switch {
+	display: block;
+	max-width: 250px;
+	margin: 0 auto 30px;
+	border-radius: 20%; 
+}
+
+
+/*PAGINA VMWARE*/
+
+#wrappervmw {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.vmware {
+	display: block;
+	max-width: 250px;
+	margin: 0 auto 30px;
+	border-radius: 20%; 
+}
+
+/*PAGINA LINUX WEB*/
+
+#wrapperlw {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.linuxweb {
+	display: block;
+	max-width: 250px;
+	margin: 0 auto 30px;
+	border-radius: 20%; 
+}
+
+
+/*PAGINA CPANEL LINUX*/
+
+#wrappercp {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.cpanel {
+	display: block;
+	max-width: 250px;
+	margin: 0 auto 30px;
+	border-radius: 20%; 
+}
+
+/*PAGINA PROXY LINUX*/
+
+#wrappersq {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.proxy {
+	display: block;
+	max-width: 250px;
+	margin: 0 auto 30px;
+	border-radius: 10%; 
+}
+
+/*PAGINA ACTIVE DIRECTORY*/
+
+#wrapperad {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.active {
+	display: block;
+	max-width: 250px;
+	margin: 0 auto 30px;
+	border-radius: 10%; 
+}
+
+/*PAGINA wifi*/
+
+#wrapperwi {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.wifi {
+	display: block;
+	max-width: 250px;
+	margin: 0 auto 30px;
+	border-radius: 10%; 
+}
+
+
+
+/*PAGINA CONTACTO*/
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10;
+}
+
+.contact-info  {
+	list-style: none;
+	padding: 0;
+	margin:0;
+	font-size: 0.9m;
+}
+
+
+
+
+
+/**********************
+NAVIGATION 
+**********************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 25px 15px;
+}
+
+
+
+
+/**********************
+FOOTER
+**********************/
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #7a7a7a;
+	clear: both;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+.face-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+/**********************
+COLORS
+**********************/
+
+/*Links*/
+
+a{
+	color: #4db8ff;
+}
+
+/*Encabezado*/
+
+header {
+	background: #2980B9;
+	border-color: #33adff;
+}
+
+/*Texto de Logo*/
+
+h1, h2 {
+	color: #fff;
+}
+
+/*Navegación*/
+
+nav {
+	background: #B2BDC1;
+}
+
+/*Links de navegacón*/
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+/*Links seleccionados*/
+
+nav a.selected, a:hover {
+	color: #041870;
+}
+
+/*cuerpo*/
+
+body {
+	background-color: #fff;
+	color: #999;
+}

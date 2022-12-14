@@ -26,13 +26,28 @@ section #gallery{
 }
 
 #wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+  	max-width: 940px;
+  	margin: 0 auto;
+  	padding: 0 5%;
 }
 
 img {
 	max-width: 100%;
+	
+}
+
+img:hover{
+	
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	background-color: #f5f5f5;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	border-radius: 4px;
+	box-shadow: 15px 20px 10px #bdc3c7;
+	border-top: solid 0px;
 }
 
 h3 {
@@ -80,6 +95,7 @@ PAGINA:PORTAFOLIO
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	
 }
 
 #gallery li {
@@ -88,6 +104,7 @@ PAGINA:PORTAFOLIO
 	margin: 2.5%;
 	background-color: #f5f5f5;
 	color: #bdc3c7;
+
 }
 
 #gallery li a p {
@@ -96,55 +113,106 @@ PAGINA:PORTAFOLIO
 	font-size: 0.85em;
 }
 
+
 /**********************
 PAGINA:ACERCA DE
 **********************/
+
+#wrapper{
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	background-color: #f5f5f5;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	border-radius: 4px;
+	box-shadow: 15px 20px 10px #bdc3c7;
+	border-top: solid 0px;
+}
 
 .foto_perfil {
 	display: block;
 	max-width: 150px;
 	margin: 0 auto 30px;
 	border-radius: 20%; 
+	box-shadow: 15px 20px 10px #7a7a7a;
 }
 
 
 /*PAGINA NETWORKING*/
 
 #wrappernet {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	background-color: #f5f5f5;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	border-radius: 4px;
+	box-shadow: 15px 20px 10px #bdc3c7;
+	border-top: solid 0px;
 }
+
 
 .network {
 	display: block;
 	max-width: 250px;
 	margin: 0 auto 30px;
 	border-radius: 20%; 
+	box-shadow: 15px 20px 10px #7a7a7a;
 }
+
+/*.caja {
+	padding: 10px;
+	background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    border-radius: 4px;
+    border-top: solid 0px;
+}  */
+
 
 /*PAGINA SWITCH*/
 
 #wrappersw {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 5% 5%;
+	background-color: #f5f5f5;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	border-radius: 4px;
+	box-shadow: 15px 20px 10px #bdc3c7;
+	border-top: solid 0px;
 }
 
 .switch {
 	display: block;
 	max-width: 250px;
 	margin: 0 auto 30px;
+	width: 200px;
 	border-radius: 20%; 
+	box-shadow: 15px 20px 10px #7a7a7a;
 }
 
 
 /*PAGINA VMWARE*/
 
 #wrappervmw {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 5% 5%;
+	background-color: #f5f5f5;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	border-radius: 4px;
+	box-shadow: 15px 20px 10px #bdc3c7;
+	border-top: solid 0px;
 }
 
 .vmware {
@@ -152,30 +220,47 @@ PAGINA:ACERCA DE
 	max-width: 250px;
 	margin: 0 auto 30px;
 	border-radius: 20%; 
+	box-shadow: 15px 20px 10px #7a7a7a;
 }
 
 /*PAGINA LINUX WEB*/
 
 #wrapperlw {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 5% 5%;
+	background-color: #f5f5f5;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	border-radius: 4px;
+	box-shadow: 15px 20px 10px #bdc3c7;
+	border-top: solid 0px;
 }
 
 .linuxweb {
 	display: block;
-	max-width: 250px;
+	max-width: 200px;
 	margin: 0 auto 30px;
-	border-radius: 20%; 
+	border-radius: 20%;
+	box-shadow: 15px 20px 10px #7a7a7a;
+
 }
 
 
 /*PAGINA CPANEL LINUX*/
 
 #wrappercp {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	background-color: #f5f5f5;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	border-radius: 4px;
+	box-shadow: 15px 20px 10px #bdc3c7;
+	border-top: solid 0px;
 }
 
 .cpanel {
@@ -183,14 +268,22 @@ PAGINA:ACERCA DE
 	max-width: 250px;
 	margin: 0 auto 30px;
 	border-radius: 20%; 
+	box-shadow: 15px 20px 10px #7a7a7a;
 }
 
 /*PAGINA PROXY LINUX*/
 
 #wrappersq {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	background-color: #f5f5f5;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	border-radius: 4px;
+	box-shadow: 15px 20px 10px #bdc3c7;
+	border-top: solid 0px;
 }
 
 .proxy {
@@ -198,14 +291,22 @@ PAGINA:ACERCA DE
 	max-width: 250px;
 	margin: 0 auto 30px;
 	border-radius: 10%; 
+	box-shadow: 15px 20px 10px #7a7a7a;
 }
 
 /*PAGINA ACTIVE DIRECTORY*/
 
 #wrapperad {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 5% 5%;
+	background-color: #f5f5f5;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	border-radius: 4px;
+	box-shadow: 15px 20px 10px #bdc3c7;
+	border-top: solid 0px;
 }
 
 .active {
@@ -213,14 +314,48 @@ PAGINA:ACERCA DE
 	max-width: 250px;
 	margin: 0 auto 30px;
 	border-radius: 10%; 
+	box-shadow: 15px 20px 10px #7a7a7a;
 }
+
+/*PAGINA web*/
+
+#wrapperwe {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 5% 5%;
+	background-color: #f5f5f5;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	border-radius: 4px;
+	box-shadow: 15px 20px 10px #bdc3c7;
+	border-top: solid 0px;
+}
+
+.web {
+	display: block;
+	max-width: 250px;
+	margin: 0 auto 30px;
+	border-radius: 10%; 
+	box-shadow: 15px 20px 10px #7a7a7a;
+}
+
+
+
 
 /*PAGINA wifi*/
 
 #wrapperwi {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 5% 5%;
+	background-color: #f5f5f5;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	border-radius: 4px;
+	box-shadow: 15px 20px 10px #bdc3c7;
+	border-top: solid 0px;
 }
 
 .wifi {
@@ -228,6 +363,7 @@ PAGINA:ACERCA DE
 	max-width: 250px;
 	margin: 0 auto 30px;
 	border-radius: 10%; 
+	box-shadow: 15px 20px 10px #7a7a7a;
 }
 
 
@@ -235,19 +371,19 @@ PAGINA:ACERCA DE
 /*PAGINA CONTACTO*/
 
 .contact-info a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10;
+  	display: block;
+  	min-height: 20px;
+  	background-repeat: no-repeat;
+  	background-size: 20px 20px;
+  	padding: 0 0 0 30px;
+  	margin: 0 0 10px;
 }
 
 .contact-info  {
 	list-style: none;
 	padding: 0;
 	margin:0;
-	font-size: 0.9m;
+	font-size: 0.9em;
 }
 
 
@@ -258,10 +394,14 @@ PAGINA:ACERCA DE
 NAVIGATION 
 **********************/
 
+
+
+
 nav {
 	text-align: center;
 	padding: 10px 0;
 	margin: 20px 0 0;
+	
 }
 
 nav ul {
@@ -272,12 +412,17 @@ nav ul {
 
 nav li {
 	display: inline-block;
+	
 }
+
+
 
 nav a {
 	font-weight: 800;
 	padding: 25px 15px;
 }
+
+
 
 
 
@@ -294,16 +439,23 @@ footer {
 }
 
 .social-icon {
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 	margin: 0 5px;
 }
 
 .face-icon {
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 	margin: 0 5px;
 }
+
+.in-icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
 
 /**********************
 COLORS
@@ -330,20 +482,49 @@ h1, h2 {
 
 /*Navegación*/
 
+
 nav {
-	background: #B2BDC1;
+	
+	background: #f5f9fa;
+	transition: transform .2s;
 }
 
 /*Links de navegacón*/
 
+/*nav a:hover {
+
+	margin: 3px;
+	padding: 3px;
+	background: #3134e0;
+	transition: 0.5s;
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px #bdc3c7;
+	border-top: solid 0px;
+}*/
+
+
+nav ul:hover li a{
+	transform: scale(1);
+	opacity: .8;
+	filter: blur(1px);
+}
+
+nav ul li a:hover{
+	transition: transform .2s;
+	transform: scale(1.5);
+	opacity: 1;
+	filter: blur(0px);
+	
+}
+
 nav a, nav a:visited {
-	color: #fff;
+	color: rgba(230, 221, 221, 0.89);
 }
 
 /*Links seleccionados*/
 
-nav a.selected, a:hover {
-	color: #041870;
+nav a.selected {
+	color: rgb(10, 4, 104);
 }
 
 /*cuerpo*/
@@ -351,4 +532,8 @@ nav a.selected, a:hover {
 body {
 	background-color: #fff;
 	color: #999;
+}
+
+.network{
+	border-radius: 15px;
 }
